@@ -3,7 +3,8 @@
     {"id": 1, "title": "Post 01 - Javascript e Next.Js", "author": "JohnDoe"},
     {"id": 2, "title": "Post 02 - Javascript e Node.Js", "author": "JohnDoe"},
     {"id": 3, "title": "Post 03 - Typescript", "author": "JohnDoe"},
-    {"id": 4, "title": "Post 04 - Javascript e React.Js", "author": "JohnDoe"}
+    {"id": 4, "title": "Post 04 - Javascript e React.Js", "author": "JohnDoe"},
+    {"id": 5, "title": "Post 05 - Next.JS", "author": "JohnDoe"}
   ],
   "comments":[
     {"id": 1, "body": "Comentario 1 sobre post 1", "postId": 1},

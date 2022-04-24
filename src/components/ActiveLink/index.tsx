@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { cloneElement } from 'react';
 import { useRouter } from 'next/router';
-import { LinkInterface } from '../../../interfaces/LinkInterface';
+import { LinkInterface } from '../../interfaces/LinkInterface';
 
 export function ActiveLink({
   children,
