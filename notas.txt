@@ -1,0 +1,3 @@
+## Json server - API ##
+-> npx json-server api.json -p 3333 -w
+-> npx json-server api.json -p 3333 -w -d 2000 (com delay)
