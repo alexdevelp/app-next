@@ -1,4 +1,5 @@
 import { GetStaticProps } from 'next';
+import SEO from '../../components/SEO';
 
 interface IPosts {
   id: string;
@@ -12,6 +13,7 @@ interface PostProps {
 export default function Posts({ posts }: PostProps) {
   return (
     <div>
+      <SEO title="Posts" />
       <h1>Listagem de Posts</h1>
       <ul>
         {posts.map(post => (

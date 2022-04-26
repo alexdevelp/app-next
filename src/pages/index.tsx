@@ -19,7 +19,7 @@ export default function Home({ posts }: HomeProps) {
   // }, []);
   return (
     <div>
-      <SEO />
+      <SEO title="Home" excludeTitleSuffix />
       <h1>Posts</h1>
       <ul>
         {posts.map((item, index) => (
